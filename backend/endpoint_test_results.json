@@ -1,0 +1,63 @@
+{
+  "onboard_file_upload": {
+    "name": "Reddam Charan Teja",
+    "email": "c9014028307@gmail.com",
+    "phone": "9014028307",
+    "location": "Vijayawada, Andhra Pradesh",
+    "skills": [
+      "FastAPI",
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "Authentication & Authorization",
+      "WebSockets (Socket.IO)",
+      "MongoDB",
+      "SQL",
+      "Query Optimization",
+      "Indexing",
+      "MySQL",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "Go",
+      "C",
+      "Data Structures & Algorithms",
+      "OOP",
+      "GCP",
+      "Firebase",
+      "AWS (Basics)",
+      "Deployment",
+      "Version Control with Git",
+      "React.js",
+      "Next.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "experience": [],
+    "profile_summary": "Motivated engineering student with hands-on experience in developing scalable backend services, REST APIs, and secure authentication flows. Strong foundation in Data Structures, Databases, and Object-Oriented Programming. Eager to learn quickly, contribute to feature development, and improve backend functionality in fast-paced engineering teams.",
+    "education": [
+      "Prasad V. Potluri Siddhartha Institute Of Technology, B. Tech in Computer Science Engineering (Data Science) — CGPA: 8.1, 2023 – 2027, Vijayawada, Andhra Pradesh"
+    ],
+    "certificationsAndAchievementsAndAwards": [
+      "NPTEL: Database Management Systems (DBMS)",
+      "NPTEL: Advanced Data Structures & Algorithms (ADSA)",
+      "Google Cloud Computing",
+      "AWS Data Engineering",
+      "SmartInterviews: Ranked in the Top 300 on the DSA upskilling platform",
+      "Smart India Hackathon (SIH): Led the team and qualified for the internal hackathon round with the Samudra Sahayak project",
+      "Led and contributed to multiple hackathons with focus on rapid prototyping and delivery",
+      "Active participant in coding contests on LeetCode, CodeChef, and external programming competitions"
+    ],
+    "projects": [
+      "Samudra Sahayak|Real-Time Hazard Reporting Platform (In Development) –Built a real-time alerting backend using FastAPI and Socket.IO for low-latency communication between field responders and dashboards. –Designed and secured role-based APIs with geospatial filters using MongoDB, enabling granular access across jurisdictions. –Developed cross-platform UI in Flutter and React powered by RESTful endpoints, reducing delays in reporting and response. –Implemented an offline-first capability, ensuring reliable data sync and submissions in low-connectivity environments.",
+      "QuizMaster|Full-Stack Quiz Platform –Built a full-stack quiz platform with FastAPI + MongoDB backend and React frontend, supporting user login, quiz creation, and AI-powered generation. –Developed REST APIs for authentication, quiz management, scoring, and history, with token validation and optimized database updates. –Designed the system to support real-time multiplayer quizzes using WebSockets (Socket.IO) for synchronized questions and live leaderboards."
+    ],
+    "about": null
+  },
+  "confirm_onboard_details": {
+    "message": "User onboarded successfully",
+    "id": "693a8de93004bcd0df1ad133"
+  }
+}

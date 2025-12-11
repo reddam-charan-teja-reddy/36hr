@@ -1,0 +1,11 @@
+fastapi
+uvicorn 
+requests
+motor
+pydantic
+python-dotenv
+google-generativeai
+jsonschema
+typing
+PyPDF2
+python-multipart

@@ -1,0 +1,45 @@
+job search application:
+
+-> Onboarding process
+1. Upload resume and parse skills and resume details like 
+    - skills
+    - experience
+    - skills from projects
+2. give option to edit all these fields
+3. Username
+-> Home page
+
+
+job Search application with chat bot
+pages: 1st
+onboarding page:
+1. upload resume
+2. shows extracted details from resume with editable fields 
+3. next button
+
+page home page:
+1. shows Saved jobs
+2. shows applied jobs
+3. shows previous chats
+4. shows new chat option
+5. profile button
+
+chat page:
+1. left 30% and right 70%
+2. left side is chatbot
+3. right side shows jobs
+4. chat send message option
+5. also provide messages that can be sent 
+6. right side starts showing jobs after some message
+7. right side job cards with job name company name, role, job description, apply button, choose button, save button
+8. pagination option on right side also
+9. chat bubbles and messages and micro feedbacks for every actions
+
+profile page:
+1. username
+2. profile photo
+3. email
+4. all the onboarded fields
+5. sign out option 
+
+
