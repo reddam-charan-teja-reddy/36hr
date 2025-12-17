@@ -1,3 +1,19 @@
+====================================================================================
+RESUME PROJECT DESCRIPTION (Professional Format)
+====================================================================================
+
+JobBot AI | AI-Powered Job Search & Interview Preparation Platform (In Development) | §
+– Engineered an intelligent job search assistant using FastAPI and Google Gemini AI with function calling,
+enabling context-aware job discovery and personalized recommendations based on parsed resume profiles.
+– Built a full-stack React (Vite) application with Radix UI components, featuring real-time chat interface,
+job card displays, and seamless user experience across onboarding, search, and profile management flows.
+– Integrated MongoDB for persistent user data storage with secure job tracking capabilities (save/unsave/apply),
+implementing proper CORS middleware and input validation for robust API security.
+– Developed an **AI Mock Interview module** with Retell AI voice integration, enabling realistic practice
+sessions with AI-generated questions, real-time transcripts, and comprehensive performance analytics.
+
+====================================================================================
+
 job search application:
 
 -> Onboarding process
