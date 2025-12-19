@@ -70,11 +70,11 @@ def get_search_jobs_function():
                 ),
                 "country": protos.Schema(
                     type=protos.Type.STRING,
-                    description="ISO-3166-1 alpha-2 country code (e.g., 'us', 'uk'). Only use if user specifies a country. Default is 'us'."
+                    description="ISO-3166-1 alpha-2 country code (e.g., 'us', 'uk'). Only use if user specifies a country. Default is 'in'."
                 ),
                 "date_posted": protos.Schema(
                     type=protos.Type.STRING,
-                    description="ONLY use if user asks for recent jobs. Options: 'all', 'today', '3days', 'week', 'month'. Default is 'all'."
+                    description="ONLY use if user asks for recent jobs. Options: 'all', 'today', '3days', 'week', 'month'. Default is '3days'."
                 ),
                 "employment_types": protos.Schema(
                     type=protos.Type.STRING,
@@ -128,7 +128,7 @@ def get_chat_model():
         ]
     )
     return genai.GenerativeModel(
-        'gemini-2.5-flash',
+        'gemini-2.5-flash-lite',
         tools=[tools],
         system_instruction=SYSTEM_PROMPT
     )
@@ -145,7 +145,7 @@ async def create_permanent_context(user_data: dict) -> str:
     Returns:
         Minimized context string
     """
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash-lite')
     
     # Build user profile summary
     profile_parts = []
@@ -169,7 +169,7 @@ async def create_permanent_context(user_data: dict) -> str:
     
     full_profile = "\n".join(profile_parts)
     
-    prompt = f"""Create a concise career profile summary (max 200 words) from the following user information. 
+    prompt = f"""Create a concise career profile summary from the following user information. 
 Focus on key skills, experience level, and what kind of jobs would suit them. 
 This will be used as context for a job search chatbot.
 
@@ -200,7 +200,7 @@ async def summarize_conversation(messages: List[dict]) -> str:
     if not messages:
         return ""
     
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash-lite')
     
     # Format messages for summarization
     conversation_text = "\n".join([
